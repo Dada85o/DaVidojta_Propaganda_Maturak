@@ -11,12 +11,12 @@
     <p class="subtitle">STUDENTI SOUEPL A ŠVEJCÁRNY POŘÁDAJÍ</p>
     <h1>Maturitní ples</h1>
     <h2>IT4B & 4SCB</h2>
-    <p class="highlight">Pařba ve Vegas ✨</p>
+    <p class="highlight" id="nametag"> Pařba ve Vegas</p>
   </header>
 
   <main>
     <section class="info">
-      <p><strong>Kdy, kde, kdo a proč</strong></p>
+      <p><strong>Kdy, kde, kdo proč a jak?</strong></p>
       <p><strong>SOBOTA, 1. 11. 2025</strong></p>
       <p>od 20:00</p>
       <p><strong>Parkhotel Plzeň</strong></p>
@@ -25,7 +25,7 @@
       <p>Proč: <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel dui ac erat consequat suscipit.</em></p>
     </section>
 
-    <section class="program">
+    <section class="program" id="program">
       <h3>Program večera</h3>
       <ul>
         <li><span>19:30</span> – Vstup pro veřejnost</li>
@@ -45,66 +45,51 @@
       </ul>
     </section>
 
+    <!-- Seznam maturantů (nový design) -->
     <section class="graduates">
       <h3>Seznam maturantů</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stužkování se účastní následující studenti:</p>
-      <ul>
-        <li>Student 1</li>
-        <li>Student 2</li>
-        <li>Student 3</li>
-        <li>Student 4</li>
-        <li>Student 5</li>
-        <li>Lorem ipsum...</li>
+      <p>Stužkování se účastní následující studenti:</p>
+      <ul class="card-list">
+        <li><span>BOCK</span></li>
+        <li><span>Student 2</span></li>
+        <li><span>Student 3</span></li>
+        <li><span>Student 4</span></li>
+        <li><span>Student 5</span></li>
       </ul>
     </section>
 
     <section class="tickets">
       <h3>Ceny lístků</h3>
-      <p>🎟️ Stání: <span class="highlight">350 Kč</span></p>
-      <p>🎟️ Sezení: <span class="highlight">400 Kč</span></p>
-      <p>🎟️ VIP vstupenka: <span class="highlight">Lorem ipsum</span></p>
-      <p>🎟️ Skupinové slevy: <span class="highlight">Lorem ipsum</span></p>
+      <p>🎟️ Stání: <span class="ticket">350 Kč</span></p>
+      <p>🎟️ Sezení: <span class="ticket">400 Kč</span></p>
     </section>
 
+    <!-- Sponzoři (nový design) -->
     <section class="sponsors">
       <h3>Sponzoři</h3>
-      <p>Děkujeme našim partnerům, kteří ples podpořili:</p>
-      <ul>
-        <li>Sponsor 1</li>
-        <li>Sponsor 2</li>
-        <li>Sponsor 3</li>
-        <li>Lorem ipsum dolor sit amet</li>
+      <p>Děkujeme našim partnerům, kteří se ples rozhodli podpořit:</p>
+      <ul class="card-list">
+        <li><span>Sponsor 1</span></li>
+        <li><span>Sponsor 2</span></li>
+        <li><span>Sponsor 3</span></li>
+        <li><span>Sponsor 4</span></li>
       </ul>
-    </section>
-
-    <section class="contact">
-      <h3>Kontakt</h3>
-      <p>Máte otázky? Kontaktujte nás:</p>
-      <p>Email: <span class="highlight">maturitniples@example.com</span></p>
-      <p>Telefon: <span class="highlight">+420 123 456 789</span></p>
-      <p>Adresa: <span class="highlight">Lorem ipsum dolor sit amet</span></p>
-    </section>
-
-    <section class="social">
-      <h3>Sociální sítě</h3>
-      <p>Instagram: <a href="https://instagram.com/hangover_it4b_4scb" target="_blank" class="highlight">@hangover_it4b_4scb</a></p>
-      <p>TikTok: <a href="https://tiktok.com/@hangover_it4b_4scb" target="_blank" class="highlight">@hangover_it4b_4scb</a></p>
-      <p>Facebook: <a href="https://facebook.com/hangover_it4b_4scb" target="_blank" class="highlight">@hangover_it4b_4scb</a></p>
     </section>
 
     <section class="school">
       <h3>Informace o škole</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Naše škola se pyšní dlouholetou tradicí a skvělými studenty.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Naše škola se pyšní dlouholetou tradicí a skvělými studentyKaždý chce skočit, nechoďte sem pls. SOUE je peklo a Zábrodský KOKOT!</p>
     </section>
 
+    <!-- Učitelé (nový design) -->
     <section class="teachers">
       <h3>Učitelé, kteří vás učí</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tým skvělých učitelů připravených vás podpořit.</p>
-      <ul>
-        <li>Mgr. Jana Nováková – učitelka matematiky</li>
-        <li>Ing. Petr Svoboda – učitel IT</li>
-        <li>PhDr. Eva Malá – učitelka českého jazyka</li>
-        <li>Lorem ipsum dolor sit amet</li>
+      <p>Tým učitelů připravených nás podpořit:</p>
+      <ul class="card-list">
+        <li><span>Mgr. Jana Nováková<br>Matematika</span></li>
+        <li><span>Ing. Petr Svoboda<br>IT</span></li>
+        <li><span>PhDr. Eva Malá<br>Čeština</span></li>
+        <li><span>Další učitel</span></li>
       </ul>
     </section>
 
@@ -121,12 +106,27 @@
       </video>
       <p><em>Více videí bude doplněno později.</em></p>
     </section>
+    
   </main>
 
+
   <footer>
-    <p>Sledujte nás na sociálních sítích:</p>
-    <p>Instagram: <span class="highlight">@hangover_it4b_4scb</span></p>
-    <p>Facebook: <span class="highlight">@hangover_it4b_4scb</span></p>
+    <section class="contact">
+      <h3>Kontakt</h3>
+      <p>Máte otázky? Kontaktujte nás:</p>
+      <p>Email: <span class="contact2">maturitniples@example.com</span></p>
+      <p>Telefon: <span class="contact2">+420 123 456 789</span></p>
+      <p>Adresa: <span class="contact2">Lorem ipsum dolor sit amet</span></p>
+    </section>
+<br>
+    <section class="social">
+      <h3>Sociální sítě</h3>
+      <p>Instagram: <a href="https://instagram.com/hangover_it4b_4scb" target="_blank" class="contact2">@hangover_it4b_4scb</a></p>
+      <p>TikTok: <a href="https://tiktok.com/@hangover_it4b_4scb" target="_blank" class="contact2">@hangover_it4b_4scb</a></p>
+      <p>Facebook: <a href="https://facebook.com/hangover_it4b_4scb" target="_blank" class="contact2">@hangover_it4b_4scb</a></p>
+    </section>
+<br>
+<br>
   </footer>
 </body>
 </html>
